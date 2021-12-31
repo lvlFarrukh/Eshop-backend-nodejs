@@ -53,7 +53,6 @@ categoryRoutes.post(`/`, (req, res) => {
                 error: error
             })
         })
-    res.send("working")
 })
 
 categoryRoutes.delete(`/:id`, async (req, res) => {
